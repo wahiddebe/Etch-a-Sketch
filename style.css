@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#container {
+  border: 1px solid black;
+  width: 960px;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+}
+
+.box {
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: white;
+}
